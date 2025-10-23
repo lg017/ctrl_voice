@@ -28,7 +28,8 @@ client1.on_message = on_message
 
 
 
-st.title("INTERFACES MULTIMODALES")
+
+st.markdown("<h1 style='color: blue;'>INTERFACES MULTIMODALES</h1>", unsafe_allow_html=True)
 st.subheader("CONTROL POR VOZ")
 
 image = Image.open('imagenazul.webp')
@@ -38,7 +39,7 @@ st.image(image, width=200)
 
 
 
-st.write("Toca el Botón y habla ")
+st.write("Toca el Botón para hablar ")
 
 stt_button = Button(label=" Inicio ", width=200)
 
