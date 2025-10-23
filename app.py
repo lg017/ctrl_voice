@@ -29,7 +29,7 @@ client1.on_message = on_message
 
 
 
-st.markdown("<h1 style='color: blue;'>INTERFACES MULTIMODALES</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: green;'>INTERFACES MULTIMODALES</h1>", unsafe_allow_html=True)
 st.subheader("CONTROL POR VOZ")
 
 image = Image.open('imagenazul.webp')
