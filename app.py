@@ -29,7 +29,6 @@ client1.on_message = on_message
 
 
 st.title("INTERFACES MULTIMODALES")
-st.markadown("<h1 style='text-align: center; color: green;'>Interfaces multimodales</h1>", unsafe_allow_html=True)
 st.subheader("CONTROL POR VOZ")
 
 image = Image.open('voice_ctrl.jpg')
